@@ -55,15 +55,16 @@ class SearchSuggestionSystem {
 }
 
 const products = [
-  "iphone",
-  "samsung25",
-  "system chipset",
-  "Dell monitor 24",
-  "samsung",
-  "samsung galaxy",
-  "samsung s21",
-  "samsung s22 ultra",
-  "Dell Laptop",
+    "mobile",
+    "mouse",
+    "moneypot",
+    "monitor",
+    "mousepad",
+    "samsung galaxy s21",
+    "samsung galaxy s20",
+    "samsung galaxy s10",
+    "samsung galaxy s9",
+    "samsung galaxy s8"
 ];
 const system = new SearchSuggestionSystem(products);
 const result = system.getSuggestions("samsung");
